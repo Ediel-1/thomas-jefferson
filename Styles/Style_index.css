@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab & family= Young+Serif & display=swap');
+
+
+*{ /* Lo tipico*/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Thomas{ /* Clase de la frase "Thomas Jefferson"*/
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Barra_Navegacion{ /* Alto del bostrap*/
+    height: 70px;
+}
+
+.Logo_Barra{ /* Imagen que se encuentra en la barra de navegación*/
+    height: 58px;
+    width: 60px;
+    margin-right: 5px;
+}
+
+
+
+.carga{ /*Para cuando las imagenes no cargan*/
+    background-color: rgb(223, 253, 255);
+    height: 450px;
+    width: 1366px;
+}
+
+.Imagen_Portada{
+    height: 450px;
+    width: 100%;
+}
+
+P{
+    font-size: 18px;
+}
+
+.Bloque-1{
+    display: grid;
+    grid-template-areas:"c0 c0"
+                        "B1-N1 B1-N1"
+                        "B1-N2 B1-N2";
+}
+        .cero{
+            grid-area: c0;
+
+        }
+        .B1-N1{
+            grid-area: B1-N1;
+            text-align: center;
+            padding: 2%;
+            padding-bottom: 0%;
+        }
+        .B1-N2{
+            grid-area: B1-N2;
+            padding: 2%;
+        }
+
+
+.Bloque-2{
+    display: grid;
+    grid-template-areas:
+                        "B2-N1 B2-N1"
+                        "B2-N2 B2-N3";
+}
+        .B2-N1{
+            grid-area: B2-N1;
+            text-align: center;
+            padding: 2%;
+            padding-bottom: 0%;
+        }
+        .B2-N2{
+            grid-area: B2-N2;
+            padding: 2%;
+        }
+        .B2-N3{
+            grid-area: B2-N3;
+            padding: 3%;
+        }
+        .CE-1{
+            width: 200px;
+            margin-left: -10%;
+            border-radius: 5px;
+        }
+.Bloque-3{
+    display: grid;
+    grid-template-areas:
+                        "B3-N1 B3-N1"
+                        "B3-N2 B3-N3";
+ }
+        .B3-N1{
+            grid-area: B3-N1;
+            padding: 2%;
+            padding-bottom: 0%;
+            text-align: center;
+            padding: 2%;
+            padding-bottom: 0%;
+        }
+        .B3-N2{
+            grid-area: B3-N2;
+            padding: 2%;
+        }
+        .B3-N3{
+            grid-area: B3-N3;
+            padding: 3%;
+        }
+        .CE-2{
+            width: 200px;
+            margin-left: 9%;
+            border-radius: 5px;
+        }
+
+.Bloque-4{
+    display: grid;
+    grid-template-areas:
+                        "B4-N1 B4-N1"
+                        "B4-N2 B4-N3";
+}
+        .B4-N1{
+            grid-area: B4-N1;
+            padding: 2%;
+            padding-bottom: 0%;
+            text-align: center;
+
+        }
+        .B4-N2{
+            grid-area: B4-N2;
+            padding: 2%;
+        }
+        .B4-N3{
+            grid-area: B4-N3;
+            padding: 2%;
+        }
+        .CE-3{
+            width: 200px;
+            margin-left: -10%;
+            border-radius: 5px;
+        }
+.Bloque-5{
+    display: grid;
+    grid-template-areas:
+                        "B5-N1 B5-N1"
+                        "B5-N2 B5-N2";
+}
+        .B5-N1{
+            grid-area: B5-N1;
+            padding: 2%;
+            padding-bottom: 0%;
+            text-align: center;
+        }
+        .B5-N2{
+            grid-area: B5-N2;
+            padding: 2%;
+            
+        }
+
+.pies{
+    background-color: rgba(26, 26, 26, 0.788);
+}
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .Barra_Navegacion{
+        height: auto;
+    }
+
+  
+    }

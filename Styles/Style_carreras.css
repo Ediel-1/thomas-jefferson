@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Slab & family= Young+Serif & display=swap');
+
+
+*{ /* Lo tipico*/
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Thomas{ /* Clase de la frase "Thomas Jefferson"*/
+    font-weight: bold;
+    font-size: 40px;
+    transition: ease-in 500ms;
+}
+
+.Barra_Navegacion{ /* Alto del bostrap*/
+    height: 70px;
+    transition: ease-in 500ms;
+}
+
+.Logo_Barra{ /* Imagen que se encuentra en la barra de navegación*/
+    height: 58px;
+    width: 60px;
+    margin-right: 5px;
+    transition: ease-in 500ms;
+}
+
+
+
+.carga{ /*Para cuando las imagenes no cargan*/
+    background-color: rgb(223, 253, 255);
+    height: 450px;
+    width: 1366px;
+}
+
+
+.fondo{ /*Imagenes que estan en el carrusel*/
+    position: auto;
+    height: 450px;
+    width: 1366px;
+    transition: ease-in 500ms;
+}
+
+
+.PRINCIPAL{
+    display: grid;
+    grid-template-areas:"at at at at at at t3"
+                        "p1 p1 p1 p1 p1 p1 p1"
+                        "c4 s2 s2 s2 s2 s2 s2"
+                        "q5 q5 q5 q5 q5 q5 q5"
+                        "s6 s6 s6 s6 s6 s6 s6"
+                        "s7 s7 s7 s7 s7 s7 o8"
+                        "n9 n9 n9 n9 n9 n9 n9"
+                        "d10 d10 d10 d10 d10 d10 d10"
+                        "u11 d12 d12 d12 d12 d12 d12"
+                        "d13 d13 d13 d13 d13 d13 d13"
+                        "d14 d14 d14 d14 d14 d14 d14"
+                        "d15 d15 d15 d15 d15 d15 d16"
+                        "d17 d17 d17 d17 d17 d17 d17"
+                        "d18 d18 d18 d18 d18 d18 d18"
+                        "d19 v20 v20 v20 v20 v20 v20"
+                        "v21 v21 v21 v21 v21 v21 v21";
+}
+.ANTEMANO{
+    grid-area: at;
+    padding: 15px 45PX 25px 55px;
+    transition: ease-in 500ms;
+}
+/*Información de la espacialidad de general*/
+.primero{
+    grid-area: p1;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.segundo{
+    grid-area: s2;
+    padding: 10px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.tercero{
+    grid-area: t3;
+    padding: 10PX;
+    padding-top: 35px;
+    transition: ease-in 500ms;
+}
+.cuarto{
+    grid-area: c4;
+    padding-left: 15%;
+    transition: ease-in 500ms;
+}
+.quinto{
+    grid-area: q5;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+/*Fin de la información de la espacialidad de general*/
+
+/*Información de la espacialidad de electricidad*/
+.sexto{
+    grid-area: s6;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.septimo{
+    grid-area: s7;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.octavo{
+    grid-area: o8;
+    transition: ease-in 500ms;
+}
+.noveno{
+    grid-area: n9;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+/*Fin de la información de la espacialidad de electricidad*/
+
+/*Información de la espacialidad de informatica*/
+.decimo{
+    grid-area: d10;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.undecimo{
+    grid-area: u11;
+    padding-left: 15%;
+    transition: ease-in 500ms;
+}
+.duodecimo{
+    grid-area: d12;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.decimotercero{
+    grid-area: d13;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+/*Fin de la información de la espacialidad de informatica*/
+
+/*Información de la espacialidad de contaduria*/
+.decimocuarto{
+    grid-area: d14;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.decimoquinto{
+    grid-area: d15;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.decimosexto{
+    grid-area: d16;
+    transition: ease-in 500ms;
+}
+.decimoseptimo{
+    grid-area: d17;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+/*Fin de la información de la espacialidad de contaduria*/
+
+/*Información de la espacialidad de salud*/
+.decimoctavo{
+    grid-area: d18;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+.decimonoveno{
+    grid-area: d19;
+    padding-left: 15%;
+    transition: ease-in 500ms;
+}
+.vigesimo{
+    grid-area: v20;
+    padding: 0px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+
+.vigesimoprimero{
+    grid-area: v21;
+    padding: 15px 45PX 0px 55px;
+    transition: ease-in 500ms;
+}
+/*Fin de la información de la espacialidad de salud*/
+
+/*Pien de pagina*/
+.pies{
+    background-color: rgba(26, 26, 26, 0.788);
+    color: azure;
+    display: grid;
+    grid-template-areas: "p p"
+                        "c d";
+}
+.foot-1{
+    grid-area: p;
+    text-align: center;
+    padding-top: 2%;
+    transition: ease-in 500ms;
+}
+.foot-2{
+    grid-area: c;
+    text-align: center;
+    transition: ease-in 500ms;
+}
+.foot-3{
+    grid-area: d;
+    text-align: center;
+    padding-top: 2%;
+    transition: ease-in 500ms;
+}
+.contac{
+    width: 60px;
+    border-radius: 100%;
+}
+.contac-t{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+/*Fin del pien de pagina*/
+
+/*Enlace interior*/
+.ult{
+    text-decoration: none;
+    color:rgb(0, 225, 255);
+    transition: ease-in 500ms;
+}
+.ult:hover{
+    text-decoration: underline;
+    color: rgb(229, 255, 0);
+}
+.atajo{
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in 500ms;
+}
+.ENLACE{
+    text-decoration: none;
+    color: black;
+    transition: ease-in 500ms;
+}
+/*Fin del enlace interior*/
+
+.INDICE{
+    border: 2px solid #929292;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px;
+    padding: 4% 4% 10% 10%;
+    background-color: #f1f1f1;
+}
+
+.BHO{
+    text-align: center;
+    padding: 15PX;
+    text-shadow: 3px 2px 0px rgb(187, 187, 187);
+   
+}
+
+.IMG_GENERAL{
+    width: 325px;
+    transition: ease-in 500ms;
+}
+.IMG_ELECTRICO{
+    width: 325px;
+  margin-right: 45px;
+  transition: ease-in 500ms;
+}
+
+.IMG_INFORMATICA{
+    width: 325px;
+    transition: ease-in 500ms;
+
+}
+.IMG_CONTADOR{
+    width: 325px;
+  margin-right: 45px;
+  transition: ease-in 500ms;
+}
+
+.IMG_SALUD{
+    width: 325px;
+  margin-right: 45px;
+  transition: ease-in 500ms;
+}
+
+
+
+/*.Materias_Salud-1{
+    display: none;
+    }
+    .Materias_Salud-2{
+        display: none;
+        }
+        .Materias_Salud-3{
+            display: none;
+            }*/
+/* Tablet */
+@media only screen and (max-width: 1224px) {
+    
+    .ANTEMANO{
+        grid-area: at;
+        padding: 15px 25PX 5px 50px;
+    }
+    .tercero{
+        grid-area: t3;
+        padding: 10PX;
+     
+    }
+    .INDICE{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .segundo{
+        grid-area: s2;
+        padding: 10px 45PX 0px 0px;
+      
+    }
+    .cuarto{
+        grid-area: c4;
+        padding-left: 15%;
+    }
+
+    .IMG_GENERAL{
+        width: 260px;
+        margin: 10% 25% 25% 0%;
+    }
+
+    .septimo{
+        grid-area: s7;
+        padding: 0px 25PX 0px 40px;
+    }
+    .IMG_ELECTRICO{
+        width: 300px;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .duodecimo{
+        grid-area: d12;
+        padding: 0px 45PX 0px 0px;
+    }
+    .IMG_INFORMATICA{
+        width: 250px;
+        margin: 25% 25% 25% 0%;
+    }
+    .decimoquinto{
+        grid-area: d15;
+        padding: 0px 25PX 0px 40px;
+    }
+    .IMG_CONTADOR{
+        width: 300px;
+        margin: 20% 5% 20% 0%;
+    }
+
+    .IMG_SALUD{
+        width: 300px;
+        margin: 10% 25% 25% 0%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+    .Barra_Navegacion{
+        height: auto;
+    }
+    .carga{ /*Para cuando las imagenes no cargan*/
+        background-color: rgb(223, 253, 255);
+        height: 300px;
+        width: 100%;
+    }
+    .fondo{ /*Imagenes que estan en el carrusel*/
+        height: 300px;
+        width: 100%;
+    }
+    
+    .ANTEMANO{
+        grid-area: at;
+        padding: 15px 25PX 5px 50px;
+    }
+    .tercero{
+        grid-area: t3;
+        padding: 10PX;
+     
+    }
+    .INDICE{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .segundo{
+        grid-area: s2;
+        padding: 10px 45PX 0px 0px;
+      
+    }
+    .cuarto{
+        grid-area: c4;
+        padding-left: 15%;
+    }
+
+    .IMG_GENERAL{
+        width: 260px;
+        margin: 10% 25% 25% 0%;
+    }
+
+    .septimo{
+        grid-area: s7;
+        padding: 0px 25PX 0px 40px;
+    }
+    .IMG_ELECTRICO{
+        width: 300px;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .duodecimo{
+        grid-area: d12;
+        padding: 0px 45PX 0px 0px;
+    }
+    .IMG_INFORMATICA{
+        width: 250px;
+        margin: 25% 25% 25% 0%;
+    }
+    .decimoquinto{
+        grid-area: d15;
+        padding: 0px 25PX 0px 40px;
+    }
+    .IMG_CONTADOR{
+        width: 300px;
+        margin: 20% 5% 20% 0%;
+    }
+
+    .IMG_SALUD{
+        width: 300px;
+        margin: 25% 25% 25% 0%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .Barra_Navegacion{
+        height: auto;
+    }
+}
+    
+    
